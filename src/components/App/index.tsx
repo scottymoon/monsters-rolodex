@@ -20,6 +20,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <h1>Monsters Rolodex</h1>
       <SearchBox onChange={setFilter} placeHolder="Search Monsters" />
       <CardList monsters={filteredMonsters} />
     </div>
